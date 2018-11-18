@@ -8,8 +8,12 @@ Plug 'mhartington/oceanic-next'
 "" Fuzzy Finder
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-" Grep/Ack/Ag/Rg
+"" Grep/Ack/Ag/Rg
 Plug 'mileszs/ack.vim'
+"" Text Search
+Plug 'google/vim-searchindex' " Displays [idx/total] for text searches on bottom left.
+"" Tabs
+Plug 'mkitt/tabline.vim' " Better formatting of vim tabs.
 "" Tree Viewer
 Plug 'tpope/vim-vinegar'
 "" AutoCompletion
@@ -18,6 +22,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'sbdchd/neoformat'
 "" Git
 Plug 'tpope/vim-fugitive'
+Plug 'shumphrey/fugitive-gitlab.vim' " Allows :GBrowse to open gitlab.com
 "" Linting
 Plug 'w0rp/ale'
 "" Autocomplete pairs -- quote with another quote, open bracket with close bracket etc.
@@ -46,6 +51,8 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 Plug 'Shougo/vimproc.vim', {'do' : 'make'} " Quaramy/Tsuquyomi dependency
 Plug 'Quramy/tsuquyomi'
+"" JSX/TSX
+Plug 'mxw/vim-jsx'
 "" Python
 Plug 'zchee/deoplete-jedi'
 "" Terraform
