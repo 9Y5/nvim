@@ -14,7 +14,6 @@ Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-vinegar'
 "" AutoCompletion
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'wokalski/autocomplete-flow'
 "" Code Formatter
 Plug 'sbdchd/neoformat'
 "" Git
@@ -32,20 +31,25 @@ Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 "" Display guiding lines within code blocks 
 Plug 'nathanaelkane/vim-indent-guides'
-" Status Line at the bottom
+"" Status Line at the bottom
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 "" Golang
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'mdempsky/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 Plug 'zchee/deoplete-go', {'do': 'make'}
-" JavaScript/Flow
+"" JavaScript/Flow
 Plug 'pangloss/vim-javascript'
-" TypeScript
+Plug 'wokalski/autocomplete-flow'
+"" TypeScript
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 Plug 'Shougo/vimproc.vim', {'do' : 'make'} " Quaramy/Tsuquyomi dependency
 Plug 'Quramy/tsuquyomi'
+"" Python
+Plug 'zchee/deoplete-jedi'
+"" Terraform
+Plug 'hashivim/vim-terraform'
 
 " Initialize plugin system
 call plug#end()
