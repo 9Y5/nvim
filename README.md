@@ -23,3 +23,8 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 ```bash
 nvim -c ":source versionlock.vim"
 ```
+
+# Override 
+```bash
+mv local_overrides.sample.vim local_overrides.vim
+```

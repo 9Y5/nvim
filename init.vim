@@ -1,4 +1,5 @@
 source $HOME/.config/nvim/package_manager.vim
+source $HOME/.config/nvim/_functions.vim
 source $HOME/.config/nvim/code_formatter.vim
 source $HOME/.config/nvim/autocomplete.vim
 source $HOME/.config/nvim/grep.vim
@@ -32,3 +33,5 @@ set ignorecase          " Search will be case-insensitive.
 set smartcase           " Case Sensitive if your search pattern is uppercase, Case-Insentive otherwise.
 
 au BufNewFile,BufRead *.go setlocal noet ts=2 sw=2 sts=4
+
+call SourceIfExists($HOME."/.config/nvim/local_overrides.vim")
