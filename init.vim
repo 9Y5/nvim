@@ -31,6 +31,7 @@ set shiftwidth=2        " Indentation amount for < and > commands.
 set cursorline          " Highlights the current line cursor is on.
 set ignorecase          " Search will be case-insensitive.
 set smartcase           " Case Sensitive if your search pattern is uppercase, Case-Insentive otherwise.
+set clipboard=unnamed   " copy to the system clipboard
 
 au BufNewFile,BufRead *.go setlocal noet ts=2 sw=2 sts=4
 
